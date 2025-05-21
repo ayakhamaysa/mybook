@@ -1,0 +1,27 @@
+   header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 2px solid #a0e7e5;
+  box-shadow: 0 4px 6px -4px #a0e7e5; 
+}
+
+    .logo img {
+      width: 60px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .icons {
+      display: flex;
+      gap: 15px;
+      font-size: 18px;
+    }

@@ -180,8 +180,8 @@
   }
 
   .book-card img {
-    width: 100%;
-    height: 220px;
+    width: 70%;
+    height: 200px;
     object-fit: cover;
     border-radius: 4px;
   }

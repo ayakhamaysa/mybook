@@ -196,3 +196,9 @@
     margin: 3px 0;
     color: #555;
   }
+
+  .book-card .price {
+    font-weight: bold;
+    margin: 8px 0;
+  }
+

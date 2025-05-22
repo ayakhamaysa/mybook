@@ -106,3 +106,42 @@
       font-family: Arial, sans-serif;
       background-color: #fff;
     }
+    .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .container img {
+    width: 500px;
+    max-width: 90%;
+  }
+
+  .text-box {
+    font-size: 15px;
+    max-width: 600px;
+  }
+
+  .text-box h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .text-box button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 28px;
+    margin: 8px 0 20px;
+    font-weight: bold;
+  }

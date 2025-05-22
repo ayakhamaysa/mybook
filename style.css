@@ -136,7 +136,7 @@
     border: none;
     padding: 12px 24px;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 0px;
   }
 
   .section-title {
@@ -167,7 +167,7 @@
   flex: 0 0 auto;
   width: 180px;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 0px;
   padding: 10px;
   text-align: center;
   background-color: #fff;
@@ -177,7 +177,7 @@
   width: 70%;
   height: 200px;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 .book-card h4 {
@@ -207,7 +207,7 @@
   border: solid #00bfa6 2px;
   padding: 6px 12px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 0px;
   margin-top: 8px;
 }
 

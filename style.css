@@ -202,3 +202,10 @@
     margin: 8px 0;
   }
 
+  .book-card .old-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 12px;
+  }
+
+ 

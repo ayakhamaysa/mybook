@@ -131,7 +131,7 @@
   }
 
   .text-box button {
-    background-color: teal;
+    background-color: #00bfa6;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -209,8 +209,8 @@
   }
 
   .book-card button {
-    color: black;
-    border: solid teal 2px;
+  background-color: white;
+    border: solid #00bfa6 2px;
     padding: 6px 12px;
     cursor: pointer;
     border-radius: 4px;

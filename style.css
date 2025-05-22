@@ -151,68 +151,63 @@
     margin: 40px 0 20px;
     font-weight: bold;
   }
+.book-slider-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px;
+}
 
-  .book-slider {
-    display: flex;
-    overflow-x: auto;
-    gap: 20px;
-    padding: 20px;
-    scroll-behavior: smooth;
-  }
+.book-slider {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+}
 
-  .book-slider::-webkit-scrollbar {
-    height: 8px;
-  }
+.book-card {
+  flex: 0 0 auto;
+  width: 180px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+}
 
-  .book-slider::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 10px;
-  }
+.book-card img {
+  width: 70%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
 
-  .book-card {
-    flex: 0 0 auto;
-    width: 180px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    text-align: center;
-    background-color: #fff;
-  }
+.book-card h4 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
 
-  .book-card img {
-    width: 70%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 4px;
-  }
+.book-card p {
+  font-size: 13px;
+  margin: 3px 0;
+  color: #555;
+}
 
-  .book-card h4 {
-    font-size: 16px;
-    margin: 10px 0 5px;
-  }
+.book-card .price {
+  font-weight: bold;
+  margin: 8px 0;
+}
 
-  .book-card p {
-    font-size: 13px;
-    margin: 3px 0;
-    color: #555;
-  }
+.book-card .old-price {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 12px;
+}
 
-  .book-card .price {
-    font-weight: bold;
-    margin: 8px 0;
-  }
-
-  .book-card .old-price {
-    text-decoration: line-through;
-    color: gray;
-    font-size: 12px;
-  }
-
-  .book-card button {
+.book-card button {
   background-color: white;
-    border: solid #00bfa6 2px;
-    padding: 6px 12px;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-top: 8px;
-  }
+  border: solid #00bfa6 2px;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+

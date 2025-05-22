@@ -152,4 +152,21 @@
     font-weight: bold;
   }
 
+  .book-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+  }
+
+  .book-slider::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .book-slider::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+  }
+
  

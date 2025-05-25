@@ -259,3 +259,35 @@
     transition: transform 0.3s ease;
   }
   .arrivals .arr_cont .arr_card img:hover { transform: scale(1.1);}
+   .arrivals .arr_cont .arr_card h5 {
+    color: black;
+    margin-bottom: 0.5em;
+  }
+  .arrivals .arr_cont .arr_card  {
+    display: inline;
+    color: #089da1;
+    margin-bottom: 0em;}
+	
+	.arrivals .arr_cont  {
+   
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  .arrivals .arr_cont  .arr_card:hover {
+    border: 1px solid green;
+    box-shadow: 0 0 0.5em green;
+	}
+	
+	.arr_card a {
+    color: black;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border: 0.15em solid #ffffff;
+    border-radius: 5px;
+    border: 0.1em solid green;
+    margin-top: 0em;
+    margin-bottom: 0em;
+	}
+	.arr_card{
+	margin-bottom:0em;}

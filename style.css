@@ -234,3 +234,10 @@
     text-align: center;
 	margin-bottom: 1em;
   }
+  .arrivals .arr_cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1em 1em;
+  }

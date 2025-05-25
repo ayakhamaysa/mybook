@@ -241,3 +241,12 @@
     flex-wrap: wrap;
     gap: 1em 1em;
   }
+  .arrivals .arr_cont .arr_card  {
+    max-width: auto;
+    border: 1px solid #969696;
+    text-align: center;
+	flex: 0 0 auto;
+    margin: 1em 0.5em;
+    padding: 1em;
+    transition: box-shadow 0.3s ease;
+  }

@@ -250,3 +250,11 @@
     padding: 1em;
     transition: box-shadow 0.3s ease;
   }
+  .arrivals .arr_cont .arr_card img {
+    width: 8em;
+	padding-top:0em;
+    height: 12em;
+    margin: 0.5em 2em;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }

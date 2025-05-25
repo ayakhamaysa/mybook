@@ -298,3 +298,61 @@
 	}
 	.arr_card{
 	margin-bottom:0em;}
+
+
+   .rev_cont {padding:0.5em; display:flex; justify-content:flex-start; width:fit-content; gap:0.5em;}
+.first-row .second-row .third-row .fourth-row  {display:flex; flex-direction:row; }  
+.circular-img{width:100px; high:100px;border-radius:50%;}
+.a{border: 1px solid green; margin:5px;padding:0.5em; box-shadow: 0 0 0.5em green;} 
+.stars {color:green;}
+.space {margin:0em ;}
+
+h2 {text-align:center;}
+
+  .reviews-banner-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; 
+   
+	
+  }
+  
+  
+   .reviews.first-row ::before,
+  .reviews .second-row::before,
+  .reviews .third-row::before,
+  .reviews .fourth-row::before {
+    content: "❝";
+    font-size: 70px;
+    color: #e6e6e6;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+  }
+  
+  
+  .reviews-banner-container img {
+    width: 100%;
+    display: block;
+    border-radius: 0;
+	margin: 2em 0em;
+	
+  }
+  
+  .reviews-banner-container button {
+    position: absolute;
+    top: 76%;
+    left: 100px;
+    transform: translateY(-50%);
+    background-color: #0097a7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+   
+  }
+  .reviews {
+     padding-left:45px;
+  }

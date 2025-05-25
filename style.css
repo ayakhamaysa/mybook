@@ -215,3 +215,12 @@
 .arr_card img {padding-top:0em;}
 .arr_card img .arr_card h5 .star .arr_card a{ margin:0px;}
 .star{color:green; font-size:20px; padding:0em;}
+.arr_card a {color:black;
+  display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+  
+    border-radius: 5px;
+    border: 0.1em solid green;
+    margin-top: 0em;
+    margin-bottom: 0em;   }
